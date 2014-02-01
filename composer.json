@@ -1,0 +1,23 @@
+{
+	"name": "sheillendra/yii2-bootstrap",
+	"description": "Yii2 Bootstrap Extended Extension",
+	"keywords": ["bootstrap", "sheillendra", "yii2","yii"],
+	"type": "yii2-extension",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Sheillendra",
+			"email": "sheillendra@yahoo.com"
+		}
+	],
+	"require": {
+		"yiisoft/yii2": "*",
+		"yiisoft/yii2-bootstrap": "*",
+		"twbs/bootstrap": "3.0.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"sheillendra\\bootstrap\\": ""
+		}
+	}
+}
