@@ -11,9 +11,7 @@
 		}
 	],
 	"require": {
-		"yiisoft/yii2": "*",
-		"yiisoft/yii2-bootstrap": "*",
-		"twbs/bootstrap": "3.0.*"
+		"yiisoft/yii2": "*"
 	},
 	"autoload": {
 		"psr-4": {
