@@ -71,6 +71,7 @@ class NavBar extends Widget
 	public $position = 'top';
 	public $containerOptions=[];
 	public $headerOptions=[];
+	public $notCollapseOptions=[];
 	public function init()
 	{
 		parent::init();
@@ -109,7 +110,7 @@ class NavBar extends Widget
 		if($this->collapse){
 			echo Html::beginTag('div', ['class' => "collapse navbar-collapse navbar-{$this->options['id']}-collapse"]);
 		}else{
-			echo Html::beginTag('div');
+			echo Html::beginTag('div',$this->notCollapseOptions);
 		}
 	}
 
